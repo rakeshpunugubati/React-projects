@@ -1,0 +1,34 @@
+
+.product-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.img{
+    margin-top: 10px;
+    width: 80%;
+    height: 70%;
+    border: 2px solid black;
+}
+.title{
+    width: 80%;
+    text-align: center;
+}
+.button-container{
+    width: 100vw;
+    
+}
+
+.button{
+    display: block;
+    margin: 30px auto;
+}

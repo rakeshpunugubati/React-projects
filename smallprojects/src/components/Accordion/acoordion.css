@@ -1,0 +1,43 @@
+.accordion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.container{
+    border: 2px solid red;
+    padding: 5px;
+    width: 500px;
+}
+.items{
+    border: 2px solid black;
+    margin: 5px;
+}
+.item{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.question{
+    padding-left: 5px;
+}
+
+.symbol{
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+    display: flex; 
+     justify-content: center;
+    align-items: center;
+}
+.answer{
+    margin: 5px;
+    padding: 5px;
+    padding-left: 30px;
+}
+p{
+    margin: 0px;
+}

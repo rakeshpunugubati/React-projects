@@ -1,0 +1,25 @@
+.background{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin: 0px;
+}
+.button{
+    padding:3px;
+    margin: 9px;
+}
+.content{
+    color: black;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 2px;
+}

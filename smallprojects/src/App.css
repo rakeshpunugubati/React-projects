@@ -1,0 +1,34 @@
+.parent {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+  }
+  
+  .child1 {
+    position: absolute;
+    
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    z-index: 1; /* Ensures child1 is below child3 */
+  }
+  
+  .child2 {
+    position: static; /* Default */
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    z-index: 0; /* Not necessary for static, but shows stacking context */
+  }
+  
+  .child3 {
+    position: absolute;
+    
+    width: 10px;
+    height: 100px;
+    background-color: green;
+    z-index: 2; /* Ensures child3 is on top of child1 and child2 */
+  }
+  
